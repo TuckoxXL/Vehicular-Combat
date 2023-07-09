@@ -10,6 +10,11 @@ public class wheelController : MonoBehaviour
     [SerializeField] WheelCollider frontLeft;
     [SerializeField] WheelCollider backLeft;
 
+    [SerializeField] Transform frontRightTransform;
+    [SerializeField] Transform frontLeftTransform;
+    [SerializeField] Transform backRightTransform;
+    [SerializeField] Transform backLeftTransform;
+
     public float aceleration = 500f;
     public float breakingForce = 300f;
     public float maxTurnAngle = 15f;
@@ -41,5 +46,20 @@ public class wheelController : MonoBehaviour
         currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
         frontLeft.steerAngle = currentTurnAngle;
         frontRight.steerAngle = currentTurnAngle;
+
+        updatewheel(frontLeft, frontLeftTransform);
+        updatewheel(frontRight, frontRightTransform);
+        updatewheel(backLeft, backRightTransform);
+        updatewheel(backRight, backLeftTransform);
+    }
+
+    void updatewheel(WheelCollider col, Transform trans)
+    {
+        Vector3 Position;
+        Quaternion rotation;
+        col.GetWorldPose(out Position, out rotation);
+
+        trans.position = Position;
+        trans.rotation = rotation;
     }
 }
