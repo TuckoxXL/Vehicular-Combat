@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
 
 public class wheelController : MonoBehaviour
@@ -11,9 +12,11 @@ public class wheelController : MonoBehaviour
 
     public float aceleration = 500f;
     public float breakingForce = 300f;
+    public float maxTurnAngle = 15f;
 
     private float currentAcceleration = 0f;
     private float currentBreakForce = 0f;
+    private float currentTurnAngle = 0f;
 
     private void FixedUpdate()
     {
@@ -35,5 +38,8 @@ public class wheelController : MonoBehaviour
         backLeft.brakeTorque = currentBreakForce;
         backRight.brakeTorque = currentBreakForce;
 
+        currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
+        frontLeft.steerAngle = currentTurnAngle;
+        frontRight.steerAngle = currentTurnAngle;
     }
 }
