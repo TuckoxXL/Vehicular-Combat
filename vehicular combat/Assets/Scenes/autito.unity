@@ -2172,9 +2172,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1851946650}
-  - component: {fileID: 1851946651}
   - component: {fileID: 1851946653}
   - component: {fileID: 1851946652}
+  - component: {fileID: 1851946654}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -2201,29 +2201,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1851946651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851946649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c7aec8965168c04fa6941aa8ce4c056, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontRight: {fileID: 733166947}
-  backRight: {fileID: 636354177}
-  frontLeft: {fileID: 550306056}
-  backLeft: {fileID: 143953088}
-  frontRightTransform: {fileID: 392915430}
-  frontLeftTransform: {fileID: 896056628}
-  backRightTransform: {fileID: 1712298221}
-  backLeftTransform: {fileID: 1519457352}
-  aceleration: 500
-  breakingForce: 300
-  maxTurnAngle: 15
 --- !u!54 &1851946652
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2272,6 +2249,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1851946654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851946649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8c7c0a37b3cefe4b991b96e13e588ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontRight: {fileID: 733166947}
+  backRight: {fileID: 143953088}
+  frontLeft: {fileID: 550306056}
+  backLeft: {fileID: 636354177}
+  frontRightTransform: {fileID: 392915430}
+  frontLeftTransform: {fileID: 896056628}
+  backRightTransform: {fileID: 1712298221}
+  backLeftTransform: {fileID: 1519457352}
+  aceleration: 500
+  breakingForce: 300
+  maxTurnAngle: 15
 --- !u!1 &2092482105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1423952079192398, guid: 883262d181076d44899200e312c369e4, type: 3}

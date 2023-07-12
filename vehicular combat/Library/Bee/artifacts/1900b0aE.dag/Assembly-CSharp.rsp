@@ -362,6 +362,7 @@
 -analyzer:"D:/UNITY/2022.3.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/shoot.cs"
 "Assets/wheelController.cs"
+"Assets/WhellContolerPL2.cs"
 -langversion:9.0
 
 /deterministic
