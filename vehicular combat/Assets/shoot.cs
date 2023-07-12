@@ -21,7 +21,7 @@ public class shoot : MonoBehaviour
 
                 newbullet = Instantiate(bullet, spawnBullet.position, spawnBullet.rotation);
 
-                newbullet.GetComponent<Rigidbody>().AddForce(spawnBullet.forward * shootForce);
+                newbullet.GetComponent<Rigidbody>().AddForce(spawnBullet.forward * shootForce, ForceMode.Impulse);
 
                 shootRateTime = Time.time + shootRate;
 
