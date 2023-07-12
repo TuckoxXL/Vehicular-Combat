@@ -168,7 +168,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1423952079192398, guid: 883262d181076d44899200e312c369e4, type: 3}
       propertyPath: m_Name
-      value: Tor11
+      value: CarPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 4533873205482410, guid: 883262d181076d44899200e312c369e4, type: 3}
       propertyPath: m_RootOrder
