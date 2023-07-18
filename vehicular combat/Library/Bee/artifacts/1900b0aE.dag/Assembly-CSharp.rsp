@@ -361,8 +361,10 @@
 -analyzer:"D:/UNITY/2022.3.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/UNITY/2022.3.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/script/gameManager.cs"
+"Assets/script/gmPL2.cs"
 "Assets/script/shoot.cs"
 "Assets/script/trigger.cs"
+"Assets/script/triggerPL2.cs"
 "Assets/script/wheelController.cs"
 "Assets/script/WhellContolerPL2.cs"
 -langversion:9.0
