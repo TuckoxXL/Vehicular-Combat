@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: acce36789f6fd914895f34983605ca33
+  - enabled: 1
+    path: Assets/Scenes/autito.unity
+    guid: 0d31d06892003a8429fa4bc700c39e98
+  - enabled: 1
+    path: Assets/Scenes/derrota.unity
+    guid: 9c53c6ea729f3414289a1fd3f5bea85c
   m_configObjects: {}

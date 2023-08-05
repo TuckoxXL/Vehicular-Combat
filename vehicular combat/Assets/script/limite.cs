@@ -9,12 +9,12 @@ public class limite : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player1"))
         {
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("derrota");
         }
 
         if (other.gameObject.CompareTag("Player2"))
         {
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("derrota");
         }
     }
 
