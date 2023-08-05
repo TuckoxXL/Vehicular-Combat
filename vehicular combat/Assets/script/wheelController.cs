@@ -62,4 +62,12 @@ public class wheelController : MonoBehaviour
         trans.position = Position;
         trans.rotation = rotation;
     }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("floor"))
+        {
+            Debug.Log("tocaste");
+        }
+    }
 }
