@@ -9,6 +9,7 @@ public class limite : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player1"))
         {
+            Debug.Log("dale");
             SceneManager.LoadScene("derrota");
         }
 
