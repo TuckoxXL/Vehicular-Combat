@@ -10,8 +10,7 @@ public class triggerPL2 : MonoBehaviour
     public Text text;
     public GameObject panel;
     public GameObject panelPL1;
-    public trigger TriggerPL1;
-
+    
     public gmPL2 GameManager;
 
     // Start is called before the first frame update

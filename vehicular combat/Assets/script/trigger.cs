@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class trigger : MonoBehaviour
 {
@@ -26,9 +27,7 @@ public class trigger : MonoBehaviour
         {
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
-
-            panel.SetActive(true);
-            panelPL2.SetActive(true);
+            SceneManager.LoadScene("derrota");
         }
     }
 

@@ -12197,7 +12197,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820076125}
-  m_LocalRotation: {x: 0.13170132, y: -0.000000008528252, z: 0.0000000011330514, w: 0.9912895}
+  m_LocalRotation: {x: 0.13170132, y: 0.000000008528252, z: -0.0000000011330514, w: 0.9912895}
   m_LocalPosition: {x: -1.8, y: 2.36, z: 29.429998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12609,7 +12609,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977716604}
-  m_LocalRotation: {x: 0.13170132, y: -0.000000008528252, z: 0.0000000011330514, w: 0.9912895}
+  m_LocalRotation: {x: 0.13170132, y: 0.000000008528252, z: -0.0000000011330514, w: 0.9912895}
   m_LocalPosition: {x: -1.8, y: 2.36, z: 29.429998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12893,7 +12893,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Victoria
+  m_Text: Victoria Jugador 1
 --- !u!222 &1036810459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13776,7 +13776,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Derrota
+  m_Text: Victoria Jugador 2
 --- !u!222 &1220828733
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15309,8 +15309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   text: {fileID: 715183330}
-  panel: {fileID: 1332513164}
-  panelPL2: {fileID: 168836079}
+  panel: {fileID: 1036810456}
+  panelPL2: {fileID: 0}
   GameManager: {fileID: 1064174263}
 --- !u!114 &1851934221
 MonoBehaviour:
@@ -15326,9 +15326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   text: {fileID: 302712546}
-  panel: {fileID: 1332513164}
-  panelPL1: {fileID: 168836079}
-  TriggerPL1: {fileID: 0}
+  panel: {fileID: 1220828730}
+  panelPL1: {fileID: 0}
   GameManager: {fileID: 1064174265}
 --- !u!4 &1871542586 stripped
 Transform:
