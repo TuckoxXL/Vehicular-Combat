@@ -20,11 +20,7 @@ public class gmPL2 : MonoBehaviour
     {
 
     }
-    public void Win()
-    {
-        SceneManager.LoadScene(2);
-    }
-
+ 
     public void incrementGoal()
     {
         Score++;

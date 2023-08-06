@@ -19,10 +19,6 @@ public class gameManager : MonoBehaviour
     {
         
     }
-    public void Win()
-    {
-        SceneManager.LoadScene(2);
-    }
     
     public void incrementGoal()
     {

@@ -9,6 +9,7 @@ public class trigger : MonoBehaviour
     public int score;
     public Text text;
     public GameObject panel;
+    public GameObject panelPL2;
 
     public gameManager GameManager;
 
@@ -27,6 +28,7 @@ public class trigger : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
 
             panel.SetActive(true);
+            panelPL2.SetActive(true);
         }
     }
 

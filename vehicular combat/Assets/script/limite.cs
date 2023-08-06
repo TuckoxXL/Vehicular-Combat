@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class limite : MonoBehaviour
 {
+    public GameObject canvasVictoria;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player1"))
         {
             Debug.Log("dale");
-            SceneManager.LoadScene("derrota");
+            canvasVictoria.SetActive(true);
+            Time.timeScale = 0;
         }
 
         if (other.gameObject.CompareTag("Player2"))
