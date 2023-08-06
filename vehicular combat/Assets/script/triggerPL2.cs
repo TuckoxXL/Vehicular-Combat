@@ -23,13 +23,11 @@ public class triggerPL2 : MonoBehaviour
     void Update()
     {
         if (GameManager.Score == 3)
-        {
-            
+        {  
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadScene("VictoriaPL2");
 
-            panel.SetActive(true);
-            panelPL1.SetActive(true);
         }
     }
 

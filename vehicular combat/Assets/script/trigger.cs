@@ -27,7 +27,7 @@ public class trigger : MonoBehaviour
         {
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
-            SceneManager.LoadScene("derrota");
+            SceneManager.LoadScene("VictoriaPL1");
         }
     }
 
