@@ -13,19 +13,19 @@ public class trigger : MonoBehaviour
     public gameManager GameManager;
     public gmPL2 gmPL2;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if(GameManager.Score == 3)
         {
-            Time.timeScale = 0;
-            Cursor.lockState = CursorLockMode.None;
+            
+            
             SceneManager.LoadScene("VictoriaPL1");
         }
 
