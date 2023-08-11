@@ -23,6 +23,6 @@ public class gameManager : MonoBehaviour
     public void incrementGoal()
     {
         Score++;
-        text.text = "" + Score;
+        text.text = "" + Score + "/3";
     }
 }

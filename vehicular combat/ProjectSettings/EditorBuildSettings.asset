@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: acce36789f6fd914895f34983605ca33
   - enabled: 1
+    path: Assets/Scenes/MenuPistas.unity
+    guid: a0313bcd4d0d9c04cbc344d46231337f
+  - enabled: 1
     path: Assets/Scenes/autito.unity
     guid: 0d31d06892003a8429fa4bc700c39e98
+  - enabled: 1
+    path: Assets/Scenes/RaceSunny.unity
+    guid: 28a5e17ae63e2df418330f945590160c
   - enabled: 1
     path: Assets/Scenes/VictoriaPL1.unity
     guid: 8b8b86c0e1d2d124481fb5d00078cbde

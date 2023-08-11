@@ -24,6 +24,6 @@ public class gmPL2 : MonoBehaviour
     public void incrementGoal()
     {
         Score++;
-        text.text = "" + Score;
+        text.text = "" + Score + "/3";
     }
 }
