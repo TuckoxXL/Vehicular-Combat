@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class menuControler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject menuPausa;
+    public bool pausa = false;
+
+    public void Start()
     {
-        
+       
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pausa == false)
+            {
+                menuPausa.SetActive(true);
+                pausa = true;
+                Time.timeScale = 0;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+        }
     }
+
+    public void Resumir()
+    {
+        menuPausa.SetActive(false);
+        pausa = false;
+        Time.timeScale = 1;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+  
 }
