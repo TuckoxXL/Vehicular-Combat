@@ -363,6 +363,7 @@
 "Assets/script/gameManager.cs"
 "Assets/script/gmPL2.cs"
 "Assets/script/limite.cs"
+"Assets/script/menuControler.cs"
 "Assets/script/ScenaContoler.cs"
 "Assets/script/trigger.cs"
 "Assets/script/triggerPL2.cs"
