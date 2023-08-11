@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class menuControler : MonoBehaviour
 {
@@ -24,6 +25,10 @@ public class menuControler : MonoBehaviour
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
             }
+            else if (pausa == true)
+            {
+                Resumir();
+            }
         }
     }
 
@@ -34,6 +39,12 @@ public class menuControler : MonoBehaviour
         Time.timeScale = 1;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void Salir()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
     }
   
 }
