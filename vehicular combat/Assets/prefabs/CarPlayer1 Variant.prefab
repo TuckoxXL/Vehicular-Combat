@@ -4925,6 +4925,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1423952079192398, guid: 883262d181076d44899200e312c369e4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3787162194900600532}
+    - targetCorrespondingSourceObject: {fileID: 1423952079192398, guid: 883262d181076d44899200e312c369e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6203497983706970011}
     - targetCorrespondingSourceObject: {fileID: 1992765922914442, guid: 883262d181076d44899200e312c369e4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6400749028578587268}
@@ -5164,7 +5167,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 64
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &3296432630112690051
 BoxCollider:
@@ -5210,6 +5213,20 @@ MonoBehaviour:
   aceleration: 500
   breakingForce: 300
   maxTurnAngle: 15
+--- !u!114 &-6203497983706970011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912156437045941874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52647025048deb148823ce885d282740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuPausa: {fileID: 0}
+  pausa: 0
 --- !u!4 &2918079956887569558 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4533873205482410, guid: 883262d181076d44899200e312c369e4, type: 3}
