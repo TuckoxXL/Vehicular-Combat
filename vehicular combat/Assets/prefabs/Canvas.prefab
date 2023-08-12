@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5829947879584585286}
   - component: {fileID: 6356462031618323794}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: VueltasPL1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 225e394873b4cf14597a39b059a28acd, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8190246174410530656}
   - component: {fileID: 1889606707174728610}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: VueltasPL2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 225e394873b4cf14597a39b059a28acd, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
